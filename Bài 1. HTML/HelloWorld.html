@@ -254,6 +254,32 @@
             <td>Khá</td>
         </tr>
     </tfoot>
+
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: auto;
+
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .khóa-a {
+            background-color: #f1a307;
+            font-weight: bold;
+        }
+        .khóa-b {
+            background-color: #d9ead3;
+            font-weight: bold;
+        }
+        tfoot {
+            font-weight: bold;
+            background-color: #f4cccc;
+        }
+    </style>
+
 </table>
 
 <form>
@@ -284,5 +310,38 @@
     </select><br><br> <label for="Ghi-chu">Ghi chú</label><br> <textarea id="Ghi-chu" name="Ghi chú" rows="4" cols="50" placeholder="Ghi chú"></textarea><br><br>
     
     <input type="submit" value="Đăng ký">
+
+    <style>
+        form {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: calc(100% - 160px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            width: auto;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
     
 </form>
